@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#100814" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="Host: a side-scrolling zombie survival shooter. Stay human." />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Host" />
+    <title>Host</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <script type="module" crossorigin src="/host/assets/index-Cz3WlCcY.js"></script>
+    <link rel="stylesheet" crossorigin href="/host/assets/index-D_1PQG4S.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game" width="800" height="360"></canvas>
+      <div id="ui"></div>
+      <div id="controls" hidden>
+        <div id="stick-zone">
+          <div id="stick-base"><div id="stick-knob"></div></div>
+        </div>
+        <div id="right-btns">
+          <div id="small-btns">
+            <button type="button" id="btn-reload" data-act="reload">RLD</button>
+            <button type="button" id="btn-melee" data-act="melee">MELEE</button>
+            <button type="button" id="btn-heal" data-act="heal">HEAL</button>
+            <button type="button" id="btn-swap" data-act="swap">SWAP</button>
+            <button type="button" id="btn-use" data-act="use">USE</button>
+          </div>
+          <button type="button" id="btn-fire" data-act="fire">FIRE</button>
+        </div>
+      </div>
+      <button type="button" id="btn-mute" title="Mute">♪</button>
+      <div id="rotate">
+        <div class="rotate-card">
+          <div class="rotate-phone">⇥</div>
+          <div>Rotate your phone</div>
+          <div class="rotate-sub">Host is played in landscape</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
